@@ -6,6 +6,7 @@ const chargeLoad =()=>{
 
     setTimeout(()=>{
         charge.innerHTML= '&#xf243';
+        charge.style.color= 'yellow';
     },1000);
 
     setTimeout(()=>{
@@ -18,6 +19,7 @@ const chargeLoad =()=>{
 
     setTimeout(()=>{
         charge.innerHTML= '&#xf240';
+        charge.style.color= 'red';
     },4000);
 
 
@@ -26,4 +28,5 @@ const chargeLoad =()=>{
 
 }
 chargeLoad();
+setInterval(chargeLoad,5000);
 
