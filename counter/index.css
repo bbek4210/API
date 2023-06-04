@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  display: grid;
+  place-items: center;
+  /* display: flex;
+  margin-left: 450px;
+  padding: 300px; */
+}
